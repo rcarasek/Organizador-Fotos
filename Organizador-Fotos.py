@@ -1,8 +1,5 @@
 import os
 from datetime import datetime
-# https://wp.stolaf.edu/it/installing-pil-pillow-cimage-on-windows-and-mac/
-# What is PIL/Pillow?   PIL (Python Imaging Library) adds many image processing features to Python. Pillow is a fork of PIL that adds some user-friendly features.
-
 from PIL import Image
 
 def folder_path_from_photo_date(file):
@@ -21,5 +18,4 @@ def photo_shooting_date(file):
     return date
 
 print(folder_path_from_photo_date('IMG_1269.PNG'))
-
-    
+  
